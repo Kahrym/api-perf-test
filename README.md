@@ -1,9 +1,12 @@
 # api-perf-test
 Simple API to use for performance testing
 
-This API has 4 endpoints:
-GET /all-students - returns all student records
-POST /new-student - this allows you to create a new student record
+This API has 4 endpoints:  
+
+**GET /all-students** - returns all student records
+
+**POST /new-student** - this allows you to create a new student record
+
 Sample payload:
 ```
 {
@@ -11,8 +14,10 @@ Sample payload:
 "description": "Class of 16"
 }
 ```
-POST /students - this adds 3 new student records
-GET /students/{studentId} - this retrieves a student record by their Student ID
+**POST /students** - this adds 3 new student records
+
+**GET /students/{studentId}** - this retrieves a student record by their Student ID
+
 
 ## To Build the project and run:
 ```mvn clean install```
