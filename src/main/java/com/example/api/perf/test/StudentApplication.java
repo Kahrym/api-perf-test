@@ -22,7 +22,7 @@ public class StudentApplication {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.any())
+                .apis(RequestHandlerSelectors.basePackage("com.example.api.perf.test"))
                 .paths(PathSelectors.any())
                 .build();
     }
